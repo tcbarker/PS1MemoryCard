@@ -1,0 +1,15 @@
+
+#viewthem {
+    display: grid;
+    grid-template-columns: 2fr 4fr 4fr 2fr 18fr 8fr ;
+}
+
+#viewthem>*:nth-child(-n+6) {
+    background-color: blue;
+    position: sticky;
+    top: 0;
+}
+
+#viewthem>* {
+    outline: 1px dotted black;
+}
